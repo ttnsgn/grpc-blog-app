@@ -1,0 +1,1 @@
+protoc --go_out=. --go_opt=module=github.com/ttnsgn/grpc-blog-app --go-grpc_out=. --go-grpc_opt=module=github.com/ttnsgn/grpc-blog-app proto/services.proto
